@@ -1,8 +1,5 @@
 require("dotenv").config();
 
-// const envSetup = require("dotenv");
-// envSetup.config();
-
 const server = require("./api/server.js");
 
 const port = process.env.PORT || 4000;
